@@ -1,0 +1,316 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	line-height: 1.5em;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	height: 100%;
+}
+.wrapper {
+	min-width: 980px;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+.inner {
+	max-width: 1190px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 25px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header .inner{
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+
+.tennis_bg {
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	width: 70%;
+	z-index: -5;
+	overflow: hidden;
+}
+
+.tennis_bg img {
+	width: 85%;
+}
+
+.tennis_price {
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Lora', serif;
+	text-align: end;
+	margin-bottom: 100px;
+}
+
+.tennis_price span {
+	font-size: 35px;
+	font-weight: 500;
+}
+
+h1 {
+	line-height: 30px;
+	text-align: center;
+	width: 40%;
+	font-size: 30px;
+}
+
+#tennis {
+	margin-bottom: 50px;
+}
+
+#bracelet {
+	border-top: 2px solid #b8b8b8;
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bracelet_img {
+	width: 50%;
+}
+
+.bracelet_img img {
+	width: 100%;
+}
+
+.bracelet_text {
+	width: 50%;
+}
+
+.bracelet_title {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 35px;
+}
+
+.bracelet_text p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.bracelet_link {
+	margin-top: 10px;
+	display: block;
+	color: rgb(160, 160, 160);
+	text-decoration: none;
+	transition: .1s;
+}
+
+.bracelet_link:hover {
+	color: rgb(0, 0, 0);
+}
+
+#earrings {
+	border-top: 2px solid #b8b8b8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.earrings_text {
+	width: 60%;
+}
+
+.earrings_img {
+	width: 40%;
+}
+
+.earrings_img img {
+	width: 100%;
+}
+
+.earrings_title {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 35px;
+}
+
+.earrings_text p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.earrings_link{
+	margin-top: 10px;
+	display: block;
+	color: rgb(160, 160, 160);
+	text-decoration: none;
+	transition: .1s;
+}
+
+.earrings_link:hover {
+	color: rgb(0, 0, 0);
+}
+
+#how_to {
+	padding: 80px 0;
+	border-top: 2px solid #b8b8b8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.how_to_text {
+	width: 40%;
+}
+
+.how_to_img {
+	width: 60%;
+}
+
+.how_to_img img {
+	width: 100%;
+}
+
+.how_to_title {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 35px;
+}
+
+.how_to_text p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.how_to_link{
+	margin-top: 10px;
+	display: block;
+	color: rgb(160, 160, 160);
+	text-decoration: none;
+	transition: .1s;
+}
+
+.how_to_link:hover {
+	color: rgb(0, 0, 0);
+}
+
+#contacts {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.contacts_link {
+	display: block;
+	text-decoration: none;
+	color: rgb(54, 54, 54);
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 60px;
+	transition: .1s;
+}
+
+.contacts_link:hover {
+	font-size: 40px;
+}
+
+.contacts_img {
+	width: 100%;
+}
+
+#footer_info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social_links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_link {
+	margin: 0 10px 10px 10px;
+}
+
+.copyright, .social_text, .policy {
+	color: #727272;
+	text-decoration: none;
+}
+
+
+.copyright:hover, .social_text:hover, .policy:hover {
+	color: #000000;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 980px;
+	max-width: 1920px;
+	position: relative;
+}
